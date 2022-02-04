@@ -27,7 +27,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.15.3",
-    "@propelleraero/cesium": "^1.x",
     "bluebird": "^3.7.2",
     "draco3d": "^1.4.1",
     "fs-extra": "^10.0.0",
@@ -35,8 +34,12 @@
     "object-hash": "^2.2.0",
     "yargs": "^17.0.1"
   },
+  "peerDependencies": {
+    "@propelleraero/cesium": "^1.x"
+  },
   "devDependencies": {
     "cloc": "^2.8.0",
+    "@propelleraero/cesium": "^1.x",
     "coveralls": "^3.1.1",
     "dependency-tree": "^8.1.1",
     "eslint": "^7.32.0",
