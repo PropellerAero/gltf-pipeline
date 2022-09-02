@@ -4,7 +4,7 @@ const {
   Cartesian3,
   clone,
   DeveloperError,
-} = require("cesium");
+} = require("@propelleraero/cesium");
 const fsExtra = require("fs-extra");
 const readResources = require("../../lib/readResources");
 const compressDracoMeshes = require("../../lib/compressDracoMeshes");
